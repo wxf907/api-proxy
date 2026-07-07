@@ -1,5 +1,5 @@
 export function middleware(context) {
   const { request, rewrite } = context;
-  // 将所有请求重写（代理）到 Coze 项目地址
-  return rewrite('https://zq8p5xnqrq.coze.site' + new URL(request.url).pathname);
+  // https://75012b38-7e1a-468f-a9ef-65ac1307ffa0.dev.coze.site
+  return rewrite('https://75012b38-7e1a-468f-a9ef-65ac1307ffa0.dev.coze.site' + new URL(request.url).pathname);
 }
