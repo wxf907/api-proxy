@@ -1,0 +1,8 @@
+{
+  "functions": {
+    "/*": {
+      "runtime": "edge",
+      "path": "_worker.js"
+    }
+  }
+}
